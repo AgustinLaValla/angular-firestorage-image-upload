@@ -118,8 +118,13 @@
               "devServerTarget": "firebase-image-upload:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "firebase-image-upload"
 }

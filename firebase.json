@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "firebase-image-upload",
+      "public": "dist/firebase-image-upload",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

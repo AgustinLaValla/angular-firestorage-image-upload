@@ -1,0 +1,8 @@
+<div class="card-columns">
+    <div class="card" *ngFor="let file of files | async">
+        <img [src]="file.url" class="card-img-top" [alt]="file.fileName">
+        <div class="card-body">
+            <h5 class="card-title">{{file.fileName}}</h5>
+        </div>
+    </div>
+</div>

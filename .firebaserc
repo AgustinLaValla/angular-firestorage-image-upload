@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-image-upload-83377": {
+      "hosting": {
+        "firebase-image-upload": [
+          "fir-image-upload-83377"
+        ]
+      }
+    }
+  }
+}
